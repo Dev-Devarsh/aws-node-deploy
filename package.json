@@ -1,0 +1,35 @@
+{
+  "name": "booking-api",
+  "version": "1.0.0",
+  "description": "Hotel booking API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Devarsh/hotel-booking-api.git"
+  },
+  "keywords": [
+    "Booking",
+    "api"
+  ],
+  "author": "Devarsh panchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-Devarsh/hotel-booking-api/issues"
+  },
+  "homepage": "https://github.com/Dev-Devarsh/hotel-booking-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.12.0",
+    "mongoose": "^6.7.2"
+  }
+}

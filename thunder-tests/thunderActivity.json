@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "90ad13ab-2c0b-4327-9aa2-24dcc75cf839",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4500/api/hotels",
+    "url": "http://localhost:4500/api/hotels",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-05T06:08:08.452Z",
+    "modified": "2022-12-05T06:08:08.452Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Hotel Jphn\",\n  \"type\": \"hotel\",\n  \"city\": \"berlin\",\n  \"address\": \"somewhere\",\n  \"distance\": \"50\",\n  \"title\": \"Best Hotel in the City\",\n  \"desc\": \"hotet description\",\n  \"cheapestPrice\": 100\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8cb3f779-ee0b-457d-8027-fc5f068bfc31",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4500/api/hotel",
+    "url": "http://localhost:4500/api/hotel",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-05T06:08:34.202Z",
+    "modified": "2022-12-05T06:12:09.550Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Hotel ahmedabad\",\n  \"type\": \"hotel\",\n  \"city\": \"ahmedabad\",\n  \"address\": \"somewhere\",\n  \"distance\": \"100\",\n  \"title\": \"Best Hotel in the City\",\n  \"desc\": \"hotet description\",\n  \"cheapestPrice\": 1500\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a075f25f-fd7b-498b-be58-1311921da68e",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4500/api/auth/login",
+    "url": "http://localhost:4500/api/auth/login",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-05T06:09:18.298Z",
+    "modified": "2022-12-05T06:09:18.298Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "9bb6ded5-01db-4c52-808f-1a0e90ddd6f5",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4500/api/auth/login",
+    "url": "http://localhost:4500/api/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-12-05T06:09:27.698Z",
+    "modified": "2022-12-05T06:10:36.262Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"devt\",\n  \"password\": \"123123\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

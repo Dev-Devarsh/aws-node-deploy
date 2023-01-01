@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "b7a44f66-092d-464b-b38e-78fc347fef0d",
+    "colName": "hotel",
+    "created": "2022-12-05T06:05:46.009Z",
+    "sortNum": 10000,
+    "folders": []
+  },
+  {
+    "_id": "7a33eda4-3843-4eb1-a69e-ce9aea554f9d",
+    "colName": "auth",
+    "created": "2022-12-05T06:12:56.381Z",
+    "sortNum": 20000,
+    "folders": []
+  }
+]

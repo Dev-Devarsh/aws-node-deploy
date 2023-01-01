@@ -1,0 +1,91 @@
+[
+  {
+    "_id": "dae28097-72c8-4b01-8f6c-362acbde2ae4",
+    "colId": "b7a44f66-092d-464b-b38e-78fc347fef0d",
+    "containerId": "",
+    "name": "create_hotel",
+    "url": "http://localhost:4500/api/hotel",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-05T06:14:06.880Z",
+    "modified": "2022-12-05T06:15:00.529Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Hotel ahmedabad\",\n  \"type\": \"hotel\",\n  \"city\": \"ahmedabad\",\n  \"address\": \"somewhere\",\n  \"distance\": \"100\",\n  \"title\": \"Best Hotel in the City\",\n  \"desc\": \"hotet description\",\n  \"cheapestPrice\": 1500\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "58b31ed7-2d39-4de0-82cf-2117282e4d24",
+    "colId": "7a33eda4-3843-4eb1-a69e-ce9aea554f9d",
+    "containerId": "",
+    "name": "sign_up",
+    "url": "http://localhost:4500/api/auth/register",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-05T06:15:16.631Z",
+    "modified": "2022-12-05T06:17:01.702Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"devt\",\n  \"email\" : \"devt@gmail\",\n  \"password\": \"123123\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "71a5bb53-6725-4fe1-a386-8ede6ebfa83c",
+    "colId": "7a33eda4-3843-4eb1-a69e-ce9aea554f9d",
+    "containerId": "",
+    "name": "log-in",
+    "url": "http://localhost:4500/api/auth/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-05T06:15:54.186Z",
+    "modified": "2022-12-05T06:16:17.462Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"devt\",\n  \"password\": \"123123\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4063d3a7-9193-472d-8c86-d8cca5208e9f",
+    "colId": "b7a44f66-092d-464b-b38e-78fc347fef0d",
+    "containerId": "",
+    "name": "get_hotel_count",
+    "url": "http://localhost:4500/api/hotel/countByCity?cities=ahmedabad,surat",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-12-05T06:17:52.157Z",
+    "modified": "2022-12-05T11:20:28.384Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "cities",
+        "value": "ahmedabad,surat",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "9ff9cab7-9c7a-4803-9627-c0d0ce4560ad",
+    "colId": "b7a44f66-092d-464b-b38e-78fc347fef0d",
+    "containerId": "",
+    "name": "count_by_city",
+    "url": "",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-12-05T11:16:29.710Z",
+    "modified": "2022-12-05T11:16:29.711Z",
+    "headers": []
+  }
+]
